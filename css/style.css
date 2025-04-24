@@ -126,3 +126,58 @@ section {
   border-radius: 50%;
   background: gold;
 }
+
+/* baby start */
+
+.baby {
+  width: 55%;
+  height: 450px;
+  background: #fe5f55;
+  border-radius: 50% 50% 20% 20%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left,
+.header-right {
+  width: 200px;
+  height: 130px;
+  background-color: #fff1c1;
+  border-radius: 100%;
+  position: absolute;
+  top: -30px;
+  left: 20px;
+}
+
+.header-left {
+  position: absolute;
+  left: 210px;
+}
+
+.header-right {
+  top: -30px;
+  right: 30px;
+}
+
+.baby-eye-left {
+  width: 40%;
+  height: 40px;
+  background: #fff1c1;
+  border-radius: 50%;
+}
+
+.baby-eyes {
+  display: flex;
+  gap: 50px;
+  background-color: transparent;
+}
+
+.baby-eye {
+  width: 140px;
+  height: 140px;
+  background: #fff1c1;
+  border-radius: 50%;
+}
