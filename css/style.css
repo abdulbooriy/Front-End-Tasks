@@ -231,3 +231,36 @@ section {
   opacity: 0.3;
   background: black;
 }
+
+.boxception {
+  width: 40%;
+  height: 500px;
+  background: #f3ac3c;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxception__box {
+  width: 350px;
+  height: 350px;
+  background: #1a4341;
+  display: flex;
+  align-items: flex-end;
+}
+
+.boxception__left__bottom__box {
+  width: 50%;
+  height: 50%;
+  background: #998235;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.mini__box {
+  width: 50%;
+  height: 50%;
+  background: #f3ac3c;
+}
