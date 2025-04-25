@@ -194,3 +194,40 @@ section {
 }
 
 /* baby end */
+
+.ice_cream__container {
+  width: 40%;
+  height: 700px;
+  background-color: #293462;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  position: relative;
+}
+
+.ice_cream {
+  width: 40%;
+  height: 450px;
+  background: #fff1c1;
+  border-radius: 400px 400px 40% 40%;
+  z-index: 1;
+}
+
+.ice_cream__stick {
+  width: 70px;
+  height: 150px;
+  background: #fe5f55;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  bottom: 60px;
+}
+
+.dark__box {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  bottom: 165px;
+  opacity: 0.3;
+  background: black;
+}
