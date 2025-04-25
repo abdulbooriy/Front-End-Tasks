@@ -141,27 +141,6 @@ section {
   align-items: center;
 }
 
-.header-left,
-.header-right {
-  width: 200px;
-  height: 130px;
-  background-color: #fff1c1;
-  border-radius: 100%;
-  position: absolute;
-  top: -30px;
-  left: 20px;
-}
-
-.header-left {
-  position: absolute;
-  left: 210px;
-}
-
-.header-right {
-  top: -30px;
-  right: 30px;
-}
-
 .baby-eye-left {
   width: 40%;
   height: 40px;
@@ -171,8 +150,9 @@ section {
 
 .baby-eyes {
   display: flex;
-  gap: 50px;
+  gap: 100px;
   background-color: transparent;
+  position: relative;
 }
 
 .baby-eye {
@@ -181,3 +161,36 @@ section {
   background: #fff1c1;
   border-radius: 50%;
 }
+
+.baby__mouth {
+  width: 100px;
+  height: 20px;
+  background-color: #fff1c1;
+  border-radius: 20% 20% 20% 20%;
+  position: absolute;
+  bottom: -70px;
+  left: 145px;
+  border-radius: 20px;
+}
+
+.baby_ears {
+  position: relative;
+}
+
+.baby__left__ear,
+.baby__right__ear {
+  width: 200px;
+  height: 200px;
+  background: #fff1c1;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100px;
+}
+
+.baby__right__ear {
+  position: absolute;
+  bottom: 100px;
+  left: 170px;
+}
+
+/* baby end */
